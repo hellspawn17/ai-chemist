@@ -6,7 +6,7 @@ import os
 import google.generativeai as genai
 from PIL import Image
 
-genai.configure(api_key=("AIzaSyABDQ7aOb-LGjKsKGU1KIKrnc0RmCNhekE"))
+genai.configure(api_key=("******************************CNhekE"))
 
 def get_gemini_repsonse (input,image,prompt):
        model=genai.GenerativeModel('gemini-1.5-flash')
